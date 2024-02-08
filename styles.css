@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(19, 18, 17);
+}
+
+#Overskrift {
+    font-size: 250%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: red;
+    font-weight: bold;
+
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    border: 10px solid;
+    border-radius: 50px;
+    background-color: rgb(80, 79, 79)
+
+}
+
+#display {
+    font-size: 500%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    margin-bottom: 30px;
+}
+
+#kontroller button {
+    font-size: 250%;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 100px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+#startBtn {
+    background-color: teal;
+}
+
+#stopBtn {
+    background-color: rgb(214, 9, 9) 
+}
+
+#resetBtn {
+    background-color: rgb(12, 9, 49)
+    
+}
+#lapBtn {
+    font-size: 125%;
+    background-color: green;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    cursor: pointer;
+    margin-top: 3px;
+    
+}
+#lapTime {
+    font-size:250%;
+    font-weight: bold;
+    color: green;
+    margin: 5px;
+}

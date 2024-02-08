@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stoppeklokke </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 id="Overskrift">Stoppeklokke</h1>
+
+    <div id="container">
+        <div id="display">
+            00:00:00:00
+        </div>
+        <div id="kontroller">
+            <button id="startBtn" onclick="start()">Start</button>
+            <button id="stopBtn" onclick="stop()">Stop</button>
+            <button id="resetBtn" onclick="reset()">Reset</button>
+        </div>
+        <div id="lapTime">
+            <button id="lapBtn" onclick="showLap()">Lap</button>
+            <div id="lapDisplay">
+            </div>
+            
+
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
